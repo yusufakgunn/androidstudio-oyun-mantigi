@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center"
+    android:orientation="vertical"
+    tools:context="net.yusufakgun.myapplication.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/istatistik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/istatistik" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/saldir"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/saldir" />
+
+        <Button
+            android:id="@+id/yemekye"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/yemekye"
+            android:layout_weight="0.37" />
+
+        <Button
+            android:id="@+id/uyu"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="@string/uyu" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/karakterOzellikleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:gravity="center_horizontal"
+        android:text="@string/karakterOzellikleri" />
+
+</LinearLayout>
